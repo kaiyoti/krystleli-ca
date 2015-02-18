@@ -7,7 +7,7 @@ config = {
 
   // Production (Heroku)
   production: {
-    url: 'www.krystleli.ca',
+    url: 'http://www.krystleli.ca',
     mail: {
       transport: 'SMTP',
       host: 'smtp.mandrillapp.com',
