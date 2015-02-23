@@ -135,8 +135,6 @@ main {
 	text-align: center;
 }
 .logo__image {
-	padding-top: 20px;
-	padding-bottom: 20px;
 
 }
 .logo__title {
@@ -167,7 +165,7 @@ main {
 ----------------------------------*/
 
 .menu {
-	padding: 0 0 42px 0;
+	padding: 0 0 100px 0;
 	text-align: center;
 }
 
