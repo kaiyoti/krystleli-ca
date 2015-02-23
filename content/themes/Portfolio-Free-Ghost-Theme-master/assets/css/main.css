@@ -42,7 +42,7 @@ body {
 	box-sizing: border-box;
 }
 a {
-	color: #5cc1a9;
+	color: #f22e69;
 	text-decoration: none;
 }
 a:active,
@@ -182,13 +182,13 @@ main {
 .menu__item:active,
 .menu__item:focus,
 .menu__item:hover {
-	color: #5cc1a9;
+	color: #f22e69;
 }
 
 .menu__item--active {
-	border-color: #5cc1a9;
+	border-color: #f22e69;
 	border-radius: 2px;
-	color: #5cc1a9;
+	color: #f22e69;
 }
 
 /*---------------------------------
@@ -239,7 +239,7 @@ main {
 }
 
 .social__icon:hover:before {
-	color: #5cc1a9;
+	color: #f22e69;
 }
 
 .social__icon:before {
