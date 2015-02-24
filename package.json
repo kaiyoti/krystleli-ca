@@ -10,6 +10,7 @@
   "private": true,
   "version": "0.5.8",
   "dependencies": {
+    "heroku-self-ping": "~1.1.1",
     "ghost": "0.5.8",
     "pg": "latest"
   },
