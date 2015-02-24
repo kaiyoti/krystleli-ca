@@ -72,6 +72,7 @@
               	}
               });
               // add necessary mouse events
+              /* 
               wrapper.mouseenter(function() {
                 wrapper.addClass('post__wrapper_helper--hover');
               });
@@ -79,6 +80,7 @@
               wrapper.mouseleave(function() {
                 wrapper.removeClass('post__wrapper_helper--hover');
               });
+              */
             } else {
               // where there is no image - display the text directly
               wrapper.addClass('post__wrapper_helper--hover');
