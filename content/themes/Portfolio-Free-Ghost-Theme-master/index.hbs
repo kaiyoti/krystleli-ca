@@ -23,15 +23,6 @@
                     <p class="post__excerpt"><a href="{{url}}" class="post__link post__readmore">{{image}}&hellip;</a></p>
                 </div>
 
-                <footer class="post__meta">
-                    {{#if tags}}
-                    <ul class="post__tags">
-                        {{#foreach tags}}
-                        <li class="post__tag"><a href="{{url}}" class="post__link post__tag_link">{{name}}</a>{{#if @last}} {{else}}, {{/if}}</li>
-                        {{/foreach}}
-                    </ul>
-                    {{/if}}
-                </footer>
             </div>
         </article>
         {{/foreach}}
