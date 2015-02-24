@@ -1,3 +1,5 @@
+require('heroku-self-ping')('http://www.krystleli.ca');
+
 var path = require('path');
 var ghost = require('ghost');
 
