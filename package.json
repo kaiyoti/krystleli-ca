@@ -15,7 +15,7 @@
     "pg": "latest"
   },
   "engines": {
-    "node": "~0.10.0"
+    "node": "~0.12.2"
   },
   "scripts": {
     "start": "node server.js"
