@@ -19,7 +19,14 @@ config = {
         }
       }
     },
-    fileStorage: false,
+    storage: {
+        active: 'ghost-cloudinary-store',
+        'ghost-cloudinary-store': {
+            cloud_name: process.env.CLOUDINARY_CLOUD,
+            api_key: process.env.CLOUDINARY_KEY,
+            api_secret: process.env.CLOUDINARY_SECRET
+        }
+    },
     database: {
       client: 'postgres',
       connection: process.env.DATABASE_URL,
