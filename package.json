@@ -12,7 +12,8 @@
   "dependencies": {
     "heroku-self-ping": "~1.1.1",
     "ghost": "0.6.0",
-    "pg": "latest"
+    "pg": "latest",
+    "cloudinary": "1.2.x"
   },
   "engines": {
     "node": "~0.12.2"
