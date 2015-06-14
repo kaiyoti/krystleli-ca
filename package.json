@@ -11,7 +11,7 @@
   "version": "0.6.0",
   "dependencies": {
     "heroku-self-ping": "~1.1.1",
-    "ghost": "0.6.0",
+    "ghost": "0.6.4",
     "pg": "latest",
     "cloudinary": "1.2.x",
     "bluebird": "2.9.x"
