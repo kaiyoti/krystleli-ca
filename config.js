@@ -10,12 +10,13 @@ config = {
     url: 'http://www.krystleli.ca',
     mail: {
       transport: 'SMTP',
-      host: 'smtp.mandrillapp.com',
+      host: process.env.SMTP_HOST,
+      secureConnection: process.env.SMTP_SECURE,
+      port: process.env.SMTP_PORT,
       options: {
-        service: 'Mandrill',
         auth: {
-          user: process.env.MANDRILL_USERNAME,
-          pass: process.env.MANDRILL_APIKEY
+          user: process.env.SMTP_USERNAME,
+          pass: process.env.SMTP_PASSWORD
         }
       }
     },
