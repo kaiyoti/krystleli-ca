@@ -10,10 +10,8 @@ config = {
     url: 'http://www.krystleli.ca',
     mail: {
       transport: 'SMTP',
-      host: process.env.SMTP_HOST,
-      secureConnection: process.env.SMTP_SECURE,
-      port: process.env.SMTP_PORT,
       options: {
+        service: 'Gmail',
         auth: {
           user: process.env.SMTP_USERNAME,
           pass: process.env.SMTP_PASSWORD
