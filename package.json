@@ -11,16 +11,17 @@
   "version": "0.6.0",
   "dependencies": {
     "heroku-self-ping": "~1.1.1",
-    "ghost": "0.6.4",
+    "ghost": "0.11.11",
     "pg": "latest",
     "cloudinary": "1.2.x",
     "bluebird": "3.7.1",
-    "gulp": "3.x"
+    "ncp": "^2.0.0"
   },
   "engines": {
-    "node": "0.12.18"
+    "node": "^4.8.4 || ^6.11.1"
   },
   "scripts": {
-    "start": "node --harmony server.js"
+    "postinstall": "ncp node_modules/casper content/themes/casper",
+    "start": "node server.js"
   }
 }
