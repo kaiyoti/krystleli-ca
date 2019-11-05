@@ -14,7 +14,7 @@
     "ghost": "3.0.2",
     "pg": "latest",
     "cloudinary": "1.2.x",
-    "bluebird": "2.9.x"
+    "bluebird": "3.7.1"
   },
   "engines": {
     "node": "10.x"
