@@ -14,10 +14,11 @@
     "ghost": "0.6.4",
     "pg": "latest",
     "cloudinary": "1.2.x",
-    "bluebird": "3.7.1"
+    "bluebird": "3.7.1",
+    "gulp": "3.x"
   },
   "engines": {
-    "node": "10.17.0"
+    "node": "10.x"
   },
   "scripts": {
     "start": "node --harmony server.js"
