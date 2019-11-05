@@ -17,7 +17,7 @@
     "bluebird": "2.9.x"
   },
   "engines": {
-    "node": "12.13.0"
+    "node": "0.12.18"
   },
   "scripts": {
     "start": "node server.js"
