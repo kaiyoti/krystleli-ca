@@ -18,7 +18,7 @@
     "gulp": "3.x"
   },
   "engines": {
-    "node": "10.x"
+    "node": "13.0.1"
   },
   "scripts": {
     "start": "node --harmony server.js"
