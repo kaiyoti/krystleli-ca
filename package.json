@@ -17,7 +17,7 @@
     "bluebird": "3.7.1"
   },
   "engines": {
-    "node": "4.9.1"
+    "node": "10.x"
   },
   "scripts": {
     "start": "node --harmony server.js"
