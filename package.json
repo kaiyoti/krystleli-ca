@@ -11,13 +11,13 @@
   "version": "0.6.0",
   "dependencies": {
     "heroku-self-ping": "~1.1.1",
-    "ghost": "0.6.4",
+    "ghost": "3.0.2",
     "pg": "latest",
     "cloudinary": "1.2.x",
     "bluebird": "2.9.x"
   },
   "engines": {
-    "node": "0.12.18"
+    "node": "10.x"
   },
   "scripts": {
     "start": "node server.js"
